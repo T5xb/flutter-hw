@@ -18,48 +18,40 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Container(
-                  margin: EdgeInsets.all(4),
                   width: 100,
                   height: 100,
-                  color: Colors.red,
+                  color: const Color.fromARGB(53, 92, 75, 74),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.flutter_dash),
-                      Text("Flutter"),
+                      Icon(Icons.account_circle_rounded),
+                      Text("Profile"),
                     ],
                   ),
-
                 ),
                 Container(
                   width: 100,
                   height: 100,
-                  color: Colors.green,
+                  color: const Color.fromARGB(53, 92, 75, 74),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.all_inbox),
+                      Text("Inbox"),
+                    ],
+                  )
                 ),
                 Container(
                   width: 100,
                   height: 100,
-                  color: Colors.blue,
-                ),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                Container(
-                  width: 100,
-                  height: 100,
-                  color: Colors.orange,
-                ),
-                Container(
-                  width: 100,
-                  height: 100,
-                  color: Colors.purple,
-                ),
-                Container(
-                  width: 100,
-                  height: 100,
-                  color: Colors.yellow,
+                  color: const Color.fromARGB(53, 92, 75, 74),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.message),
+                      Text("Messages"),
+                    ],
+                  )
                 ),
               ],
             ),
@@ -69,17 +61,78 @@ class HomeScreen extends StatelessWidget {
                 Container(
                   width: 100,
                   height: 100,
-                  color: Colors.cyan,
+                  color: const Color.fromARGB(53, 92, 75, 74),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.message),
+                      Text("Messages"),
+                    ],
+                  )
                 ),
                 Container(
                   width: 100,
                   height: 100,
-                  color: Colors.pink,
+                  color: const Color.fromARGB(53, 92, 75, 74),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.account_circle_rounded),
+                      Text("Profile"),
+                    ],
+                  )
                 ),
                 Container(
                   width: 100,
                   height: 100,
-                  color: Colors.lime,
+                  color: const Color.fromARGB(53, 92, 75, 74),child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.account_circle_rounded),
+                      Text("Profile"),
+                    ],
+                  )
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Container(
+                  width: 100,
+                  height: 100,
+                  color: const Color.fromARGB(53, 92, 75, 74),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.account_circle_rounded),
+                      Text("Profile"),
+                    ],
+                  )
+                ),
+                Container(
+                  width: 100,
+                  height: 100,
+                  color: const Color.fromARGB(53, 92, 75, 74),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.account_circle_rounded),
+                      Text("Profile"),
+                    ],
+                  )
+                ),
+                Container(
+                  width: 100,
+                  height: 100,
+                  color: const Color.fromARGB(53, 92, 75, 74),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.account_circle_rounded),
+                      Text("Profile"),
+                    ],
+                  )
                 ),
               ],
             )
