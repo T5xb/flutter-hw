@@ -9,13 +9,20 @@ class HomeScreen extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: const Color.fromARGB(255, 131, 95, 247),
           title: Text("Flutter App"),
+          titleTextStyle: TextStyle(
+            color: const Color.fromARGB(255, 0, 0, 0),
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+          ),
           centerTitle: true,
+          
+          leading: Icon(Icons.menu),
         ),
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
                   width: 100,
@@ -56,7 +63,7 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
                   width: 100,
@@ -65,8 +72,8 @@ class HomeScreen extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.message),
-                      Text("Messages"),
+                      Icon(Icons.navigation),
+                      Text("Navigation"),
                     ],
                   )
                 ),
@@ -77,8 +84,8 @@ class HomeScreen extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.account_circle_rounded),
-                      Text("Profile"),
+                      Icon(Icons.notifications),
+                      Text("Notifications"),
                     ],
                   )
                 ),
@@ -88,15 +95,15 @@ class HomeScreen extends StatelessWidget {
                   color: const Color.fromARGB(53, 92, 75, 74),child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.account_circle_rounded),
-                      Text("Profile"),
+                      Icon(Icons.paypal),
+                      Text("PayPal"),
                     ],
                   )
                 ),
               ],
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
                   width: 100,
@@ -105,8 +112,8 @@ class HomeScreen extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.account_circle_rounded),
-                      Text("Profile"),
+                      Icon(Icons.contacts),
+                      Text("Contacts"),
                     ],
                   )
                 ),
@@ -117,26 +124,27 @@ class HomeScreen extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.account_circle_rounded),
-                      Text("Profile"),
+                      Icon(Icons.settings),
+                      Text("Settings"),
                     ],
                   )
                 ),
                 Container(
                   width: 100,
                   height: 100,
-                  color: const Color.fromARGB(53, 92, 75, 74),
-                  child: Column(
+                  color: const Color.fromARGB(53, 92, 75, 74),child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(Icons.account_circle_rounded),
-                      Text("Profile"),
+                      Icon(Icons.alarm),
+                      Text("Alarm"),
                     ],
                   )
                 ),
               ],
-            )
-        ])
+            ),
+         ],
+        ),
+
       );
 
     }
